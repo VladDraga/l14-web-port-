@@ -106,12 +106,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-    flex-basis: calc((100%-60px) / 3);
+}
+
+.section2{
+    margin-top: 50px;
+    margin-bottom: 94px;
 }
 
 .figure{
-    margin-top: 34px;
-    margin-bottom: 94px;
+    flex-basis: calc((100%-60px) / 3);
 }
 
 .name{
